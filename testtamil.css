@@ -1,0 +1,360 @@
+/* Add this CSS to your test.css file */
+
+.title {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Adjust the font weight as needed */
+    margin-bottom: 10px; /* Adjust the margin bottom as needed */
+    text-align: center; /* Align the text to the center */
+    color: #333; /* Adjust the color as needed */
+    background-color: #ffff00;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* styles.css */
+  
+  .frame {
+    margin-left: 820px;
+    margin-right: 10px;
+    margin-top: 140px;
+    border-collapse: collapse;
+       
+  
+  }
+  
+  //new
+  .div-wrapper {
+    background-color: green;
+  }
+  
+  
+  
+  .frame {
+    width: 600px;
+    height: 400px;
+    background-color: #ffffff;
+  }
+  
+  .frame .overlap-group {
+    position: relative;
+    height: 400px;
+    background-image: url(./img/rectangle-8.svg);
+    background-size: 100% 100%;
+  }
+  
+  .frame .text-wrapper {
+    position: absolute;
+    top: 35px;
+    left: 100px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    font-weight: bold;
+  }
+  
+  .frame .rectangle {
+    position: absolute;
+    width: 588px;
+    height: 346px;
+    top: 109px;
+    left: 48px;
+    background-color: #FFC900;
+  }
+  
+  .frame .div {
+    position: absolute;
+    width: 157px;
+    height: 247px;
+    top: 10px;
+    left: 48px;
+    background-color: #d9d10c;
+  }
+  
+  .frame .rectangle-2 {
+    position: absolute;
+    width: 163px;
+    height: 229px;
+    top: 227px;
+    left: 472px;
+    background-color: #eb0707;
+  }
+  
+  .frame .rectangle-3 {
+    position: absolute;
+    width: 100px;
+    height: 424px;
+    top: 194px;
+    left: 210px;
+    background-color: #0af63e;
+    transform: rotate(89.89deg);
+  }
+  
+  .frame .rectangle-4 {
+    position: absolute;
+    width: 119px;
+    height: 430px;
+    top: -47px;
+    left: 361px;
+    background-color: #d9d9d9;
+    transform: rotate(89.89deg);
+  }
+  
+  .frame .rectangle-5 {
+    position: absolute;
+    width: 128px;
+    height: 267px;
+    top: 158px;
+    left: 275px;
+    background-color: #e610de;
+    transform: rotate(89.89deg);
+  }
+  
+  .frame .text-wrapper-2 {
+    position: absolute;
+    top: 247px;
+    left: 103px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+  
+  .frame .div-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 389px;
+    left: 222px;
+  }
+  
+  .frame .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+  
+  .frame .bapp {
+    top: 154px;
+    left: 92px;
+    position: absolute;
+    width: 70px;
+    height: 61px;
+    object-fit: cover;
+  }
+  
+  .frame .img {
+    top: 377px;
+    left: 117px;
+    position: absolute;
+    width: 80px;
+    height: 61px;
+    object-fit: cover;
+  }
+  
+  .frame .bapp-2 {
+    top: 138px;
+    left: 262px;
+    position: absolute;
+    width: 80px;
+    height: 71px;
+    object-fit: cover;
+  }
+  
+  .frame .bapp-3 {
+    top: 294px;
+    left: 528px;
+    position: absolute;
+    width: 70px;
+    height: 61px;
+    object-fit: cover;
+  }
+  
+  .frame .img-2 {
+    position: absolute;
+    width: 93px;
+    height: 42px;
+    top: 310px;
+    left: 314px;
+  }
+  
+  .frame .text-wrapper-4 {
+    position: absolute;
+    top: 277px;
+    left: 287px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+  
+  .frame .text-wrapper-5 {
+    position: absolute;
+    top: 153px;
+    left: 378px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+  
+  .frame .text-wrapper-6 {
+    position: absolute;
+    width: 79px;
+    top: 361px;
+    left: 510px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+  
+  .frame {
+    background-color: yellow;
+    width: 680px; /* Adjust the width as needed */
+    height: 530px; 
+  }
+  //hoverrr
+  /* Style for the buttons */
+  .rectangle,
+  .rectangle-2,
+  .rectangle-3,
+  .rectangle-4,
+  .rectangle-5 {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    margin: 5px; /* Adjust margin as needed */
+    background-color: #3498db; /* Set button background color */
+    color: #fff; /* Set button text color */
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 1px; /* Set button border radius */
+    transition: background-color 0.3s; /* Smooth transition for the hover effect */
+  }
+  
+  /* Hover effect */
+  .rectangle:hover,
+  .rectangle-2:hover,
+  .rectangle-3:hover,
+  .rectangle-4:hover,
+  .rectangle-5:hover {
+    background-color: #F7FF00; /* Set button background color on hover */
+  }
+  
+  
+  //hover end
+  
+  
+  
+  
+  
+  //timeee and otherrrrrrrrrr
+  .time {
+      margin: 0;
+      padding: 0;
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background-color: #ffffff;
+      padding: 10px 15px;
+      border-radius: 5px;
+      color: #000000; ;
+      font-family: sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    .heddd button {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin: 15px;
+    }
+    
+    .back-button {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      z-index: 1;
+      background-color: #ffa500;
+      border: none;
+      border-radius: 4px;
+      color: FFD700;
+      cursor: pointer;
+      padding: 10px 20px;
+      text-decoration: none;
+    }
+    .time {
+      margin: 0;
+      padding: 0;
+      position: fixed;
+      top: 45px;
+      left: 12px;
+      background-color: white;;
+      padding: 10px 12px;
+      border-radius: 30px;
+      color: black;
+      font-family: sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .fade-out {
+      animation: fadeOut 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeOut {
+      from {
+          opacity: 1;
+      }
+      to {
+          opacity: 0;
+      }
+  }
+  
+  
+  
+  
+    @media only screen and (max-width: 768px) {
+      .time {
+        font-size: 8px;
+        position: center;
+        top: 10px;
+        left: 12px;
+      }
+  
+    }

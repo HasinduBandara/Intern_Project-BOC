@@ -1,0 +1,62 @@
+<div class="feedback-ui">
+    <html lang="en">
+<link rel="stylesheet" href="feed.css">
+<body style="background-color: #DAA520;">
+
+<p class="time" id="demo"></p>
+
+ 
+
+  <script>
+    const d = new Date();
+    const formattedDate = `${d.getFullYear()}-${d.toLocaleString('default', { month: 'long' })}-${d.getDate()}`;
+    const formattedTime = `${d.getHours()}:${d.getMinutes() }`;
+    document.getElementById('demo').innerHTML = `${formattedTime}    |     ${formattedDate} `;
+
+  </script>
+    <h1>Please rate your experience </h1>
+   
+    <div class="button-container">
+      <button class="emoji-button">&#128513;</button>
+      <button class="emoji-button">&#128578;</button>
+      <button class="emoji-button">&#128528;</button>
+      <button class="emoji-button">&#128542;</button>
+      <button class="emoji-button">&#128531;</button>
+    </div>
+    
+    <img src="image/Capture.PNG" class="bkk">
+    <p>Please share your valuable feedback on our digital product.</p>
+    <form action="#">
+      <div class="user-info">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+  
+        <label for="phone">Your Phone Number:</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number">
+  
+        <label for="email">Your Email Address:</label>
+        <input type="email " id="email" placeholder="Enter your email address">
+      </div>
+     
+      
+      <div class="comment">
+        <label for="comment">Please share your feedback:</label>
+        <textarea id="comment" rows="4" cols="50"></textarea>
+      </div>
+      <div class="submit">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+  <div class="heddd">
+    <button class="back-button" onclick="redirectToPreviousPage()">Back</button>
+</div>
+
+<script>
+    function redirectToPreviousPage() {
+        // Use the window.history object to navigate back
+        window.history.back();
+    }
+</script>
+  
+</body>

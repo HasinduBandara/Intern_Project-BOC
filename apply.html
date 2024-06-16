@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="apply.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Online</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    <style>
+        body {
+         
+         background-image: url(image/grp.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+       }
+        </style>
+
+    <h1>Apply Online</h1>
+    <img src="image/gg.jpg" class="bkk"><br>
+</body>
+
+<main>
+    <p class="time" id="demo"></p>
+
+    <script>
+        const d = new Date();
+        const formattedDate = `${d.getFullYear()}-${d.toLocaleString('default', { month: 'long' })}-${d.getDate()}`;
+        const formattedTime = `${d.getHours()}:${d.getMinutes() }`;
+        document.getElementById('demo').innerHTML = `${formattedTime}        ${formattedDate} `;
+  
+      </script>
+    <div class="heddd">
+        <button class="back-button" onclick="redirectToTestPage()">Back</button>
+      </div>
+      
+      <script>
+        function redirectToTestPage() {
+          window.location.href = "test.html";
+        }
+      </script>
+      
+    <section class="features">
+
+        <p>
+            Embrace the ease and efficiency of applylng for banking facilities online. Skip the paperwork and visit a
+            branch with just a few clicks! Enjoy the convenience of 2417 accessibility, whether you're at home, work,
+            or traveling.
+            Securely apply for following facilities and experience a streamlined and hassle-free journey, saving
+            valuable time and effort.
+
+        </p><br><br><br>
+        <h2>Features</h2>
+
+
+        <ul>
+            <li>Credit cards</li>
+            <li> Personal Loans</li>
+            <li>BOC Home Loans</li>
+            <li>Savings Account</li>
+            <li>Join us online today and unlock a world of seamless banking
+                at your fingertips!</li>
+        </ul>
+        </ul>
+
+
+    </section>
+
+
+    <!DOCTYPE html>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 2fr);
+            /* Adjust the number of columns as needed */
+            grid-gap: 10px;
+            /* Adjust the gap between grid items */
+        }
+
+        .button {
+            padding: 8px;
+            text-align: center;
+            background-color: FFD700;
+            color: black;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+
+    <body>
+        <div class="grid">
+            <a href="home.html" class="button">Exit</a>
+            <a href="faq.html" class="button">FAQ ></a>
+            <a href="#" class="button">Demo Video ></a>
+            <a href="feed.html" class="button">Customer Feedback</a>
+
+        </div>
+    </body>
+
+
+</main>
+</body>
+
+</html>

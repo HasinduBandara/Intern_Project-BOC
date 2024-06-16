@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="book.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Pass Book</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    <style>
+        body {
+         
+         background-image: url(image/grp.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+       }
+        </style>
+        <h1>Smart Pass Book</h1>
+
+
+
+    <img src="image/spass.png" class="bkk"> <br><br>
+    </body>
+    <main>
+        <p>
+            BOC Smart Passbook is an electronic version of the traditional passbook / current account statement,
+            which allows you to download and check your account, pawning balances and transaction details reaF
+            time, anywhere, anytime.
+
+        </p>
+        <div class="heddd">
+            <button class="back-button" onclick="redirectToTestPage()">Back</button>
+          </div>
+          
+          <script>
+            function redirectToTestPage() {
+              window.location.href = "test.html";
+            }
+          </script>
+          
+          <p class="time" id="demo"></p>
+
+          <script>
+            const d = new Date();
+            const formattedDate = `${d.getFullYear()}-${d.toLocaleString('default', { month: 'long' })}-${d.getDate()}`;
+            const formattedTime = `${d.getHours()}:${d.getMinutes() }`;
+            document.getElementById('demo').innerHTML = `${formattedTime}        ${formattedDate} `;
+      
+          </script>
+        <section class="features">
+
+            <br>
+            <h2>Features</h2> 
+            <ul>
+                <li>Self-Registration with NIC and Mobile number (Local/ Foreign)</li>
+                <li> Account balances & Transaction details</li>
+                <li>Pawning balance</li>
+                <li>Can view transaction details of last 03 months.</li>
+                <li>Foreign remittances tracker</li>
+                <li>can be used in multiple devices (up to 5 devices per registration)</li>
+
+                <li>Last-viewed transactions dlsplayed in offline mode</li>
+            </ul>
+
+
+        </section>
+
+
+        <!DOCTYPE html>
+
+        <style>
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(5, 2fr);
+                /* Adjust the number of columns as needed */
+                grid-gap: 10px;
+                /* Adjust the gap between grid items */
+            }
+
+            .button {
+                padding: 8px;
+                left: 1;
+                top:1;
+                text-align: center;
+                background-color: FFD700;
+                color: black;
+                border: none;
+                cursor: pointer;
+            }
+        </style>
+
+        <body>
+            <div class="grid">
+                <a href="home.html" class="button">Exit</a>
+                <a href="faq.html" class="button">FAQ ></a>
+                <a href="#" class="button">Demo Video ></a>
+                <a href="feed.html" class="button">Customer Feedback</a>
+
+            </div>
+        </body>
+
+
+    </main>
+</body>
+
+</html>

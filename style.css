@@ -1,0 +1,112 @@
+.btn-group {
+  position: absolute;
+  bottom: 120px;
+  right: 200px;
+}
+
+.btn-group button {
+  /* Change button color */
+  background-color: #800020;
+  color: #fff;
+
+  /* Change button shape and size */
+  border-radius: 80px;
+  padding: 10px 20px;
+  font-size: 20px;
+
+  /* Add animation */
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Add hover effect */
+.btn-group button:hover {
+  background-color: #2980b9;
+}
+
+h3 {
+  /* Change font size */
+  font-size: 24px;
+
+  /* Change background color to yellow */
+  background-color: yellow;
+
+  /* Change font style */
+  font-family: "Arial", sans-serif;
+  /* or any other font-family you prefer */
+  font-weight: normal;
+}
+
+
+
+
+#demo {
+  font-family: sans-serif;
+
+  font-size: 20px;
+  color: black;
+  display: inline-block;
+  margin-left: 100px;
+  margin: -3;
+  padding: 10px;
+  background-color: white;
+  border: 1px;
+  /*  border-radius: 2px; */
+}
+
+
+.globe-image {
+  position: fixed;
+  top: 60px;
+  right: 50px;
+  width: 550px;
+  height: 200px;
+}
+
+
+
+.time {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: #2196F3;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Responsive code */
+@media only screen and (max-width: 600px) {
+  .globe-image {
+    width: 100%;
+    max-width: none;
+    top: 60;
+    right: 0;
+  }
+
+  .h3 {
+    width: 80%;
+    left: 0%;
+    transform: translateX(-50%);
+    top: 200px;
+  }
+}
+.fade-in {
+  animation: fadeIn 0.5s ease-out-in;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 1;
+  }
+  to {
+      opacity: 0;
+  }
+}

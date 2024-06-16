@@ -1,0 +1,200 @@
+/* General styles */
+body {
+    font-family: sans-serif, Arial, Helvetica;
+    margin: 0;
+    padding: 0;
+   /*  background-image: url('abi.img');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+  }
+  
+  .feedback-ui {
+    width: 55%;
+    
+    
+    margin: 10 280;
+    padding: 30px;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    /* margin-bottom: 5px; */
+  }
+  
+  p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .user-info {
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 300px;
+    padding: 5px;
+    border: 4px solid #ffee55;
+    border-radius: 12px;
+  }
+  
+  select {
+    width: 100px;
+    padding: 50px;
+    border: 1px solid #ffee55;
+    border-radius: 38px;
+  }
+  
+  .comment {
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .submit {
+    display: flex;
+    justify-content: center;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+ 
+  .rating #emoji-rating {
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 500px;
+    align-items: center;
+    justify-content: center;
+
+        
+  }
+  
+  .rating #emoji-rating label {
+    margin: 0 0;
+  
+    
+    
+  }
+  /* #emoji-rating label {
+    display: inline-block;
+    margin-right: 0px;
+  } */
+  #emoji-rating input {
+    vertical-align: middle;
+  }
+  .emoji-container {
+    ...
+  }
+  
+  .emoji-container img {
+    ...
+    cursor: pointer;
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 80px;
+  }
+  
+  .emoji-button {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .bkk{
+
+     /* height: 300%;  */
+    float: left;
+    width: 43%;
+    padding-right: 50px;
+    margin-bottom: 80px;
+    /* border-radius: 46px;
+    display: block; */
+    
+    }
+    .time {
+      margin: 0;
+      padding: 0;
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background-color: #2196F3;
+      padding: 10px 15px;
+      border-radius: 5px;
+      color: white;
+      font-family: sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .back-button {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      z-index: 1;
+      background-color: #FFEA00;
+      border: none;
+      border-radius: 4px;
+      text-color: FFD700;
+      cursor: pointer;
+      padding: 10px 20px;
+      text-decoration: none;
+    }
+    @media only screen and (max-width: 600px) {
+      .feedback-ui {
+        width: 90%;
+        margin: 10px auto;
+      }
+    }
+    
+    @media only screen and (max-width: 480px) {
+      .feedback-ui {
+        width: 75%;
+      }
+    
+      .button-container {
+        flex-direction: column;
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      .time {
+        font-size: 14px;
+      }
+    
+      .back-button {
+        font-size: 12px;
+        padding: 8px 16px;
+      }
+    }

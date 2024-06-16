@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="smart.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Pay</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+  <style>
+    body {
+     
+     background-image: url(image/grp.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+   }
+    </style>
+ 
+   <h1>Smart Pay</h1> 
+   
+
+ 
+    <img src ="image/smt.jpg" class="bkk">
+    <p class="time" id="demo"></p>
+
+    <script>
+      const d = new Date();
+      const formattedDate = `${d.getFullYear()}-${d.toLocaleString('default', { month: 'long' })}-${d.getDate()}`;
+      const formattedTime = `${d.getHours()}:${d.getMinutes() }`;
+      document.getElementById('demo').innerHTML = `${formattedTime}        ${formattedDate} `;
+
+    </script>
+   <div class="heddd">
+    <button class="back-button" onclick="redirectToTestPage()">Back</button>
+  </div>
+  
+  <script>
+    function redirectToTestPage() {
+      window.location.href = "test.html";
+    }
+  </script>
+  
+    <section class="features">
+     
+        <p>
+          'LANKAQR' is the domestic QR which is one of the emerging payment solution in the market. BOC facilitates LANKAQR
+          and UnionPay International (CUP) QR codes at BOC merchant outlets islandwide.
+        </p>
+    <br><br><br>
+    </section>
+ 
+      <h2>Features</h2> 
+      <ul >
+        <li>Scan and pay at over 100,000 LANKAQR certified merchant outlets islandwide using your own mobile device and without cash in hand</li>
+        <li>Complete any utility bill payments and payments for government services in a matter of seconds</li>
+        <li>Scan and Pay to any LANKAQR printed on a utility bill or merchant invoice</li>
+        <li>Settle BOC Credit Cards quickly avoiding late payment charges</li>
+        <li>Use your BOC accounts to make direct payments without a debit card or cash withdrawn</li>
+        <li>Inquire your BOC Savings or Current account balances in real-time</li>
+      </ul>
+
+      
+    </section>
+
+   
+    <!DOCTYPE html>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 2fr); /* Adjust the number of columns as needed */
+            grid-gap: 10px; /* Adjust the gap between grid items */
+        }
+        .button {
+            padding: 8px;
+            text-align: center;
+            background-color: FFD700;
+            color:black;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+
+<body>
+    <div class="grid">
+        <a href="home.html" class="button">Exit</a>
+        <a href="faq.html" class="button">FAQ ></a>
+        <a href="#" class="button">Demo Video ></a>
+        <a href="feed.html" class="button">Customer Feedback</a>
+       
+    </div> 
+</body>
+
+
+  </main>
+</body>
+</html>

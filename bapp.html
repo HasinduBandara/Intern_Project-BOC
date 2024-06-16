@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="sn">
+<link rel="stylesheet" href="bapp.css">
+
+<head>
+    <style>
+        body {
+         
+         background-image: url(image/grp.png);
+         background-size: cover;
+         background-repeat: repeat;
+       }
+        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B App</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    
+   
+    <h1>B App</h1>
+
+    <img src="image/bapp.png" class="bkk"> <br><br>
+    <main>
+        <p class="time" id="demo"></p>
+
+        <script>
+            const d = new Date();
+            const formattedDate = `${d.getFullYear()}-${d.toLocaleString('default', { month: 'long' })}-${d.getDate()}`;
+            const formattedTime = `${d.getHours()}:${d.getMinutes() }`;
+            document.getElementById('demo').innerHTML = `${formattedTime}        ${formattedDate} `;
+      
+          </script>
+        <div class="heddd">
+            <button class="back-button" onclick="redirectToTestPage()">Back</button>
+          </div>
+          
+          <script>
+            function redirectToTestPage() {
+              window.location.href = "test.html";
+            }
+          </script>
+          
+        <section class="features">
+
+            <p>
+                Wherever you are, BOC's mobile app is the convenient way to 8et your banking done conveniently and
+                securely. Use B App to access all your accounts, pay your bills and transfer funds with the security of
+                advanced encryption for high-speed banking.
+            
+            </p><br><br><br>
+            <h2>Features</h2>
+            <ul>
+                <li>Balance inquiries (current/Savings/Loans)</li>
+                <li> View previous transactions and download statements</li>
+                <li>Add billers and third party accounts</li>
+                <li>Fund transfer (immediate/scheduled/ standing order) to own account, third party BOC accounts
+                    and other bank accounts.</li>
+                <li>Bill Payments (immediate, scheduled, recurring)</li>
+                <li>Credit card payments (Bank & non-bank credlt cards)</li>
+
+                <li>Online cheque book request</li>
+            </ul>
+
+
+        </section>
+
+
+        <!DOCTYPE html>
+
+        <style>
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(5, 2fr);
+                /* Adjust the number of columns as needed */
+                grid-gap: 10px;
+                /* Adjust the gap between grid items */
+            }
+
+            .button {
+                padding: 8px;
+                text-align: center;
+                background-color: FFD700;
+                color: black;
+                border: none;
+                cursor: pointer;
+            }
+        </style>
+
+        <body>
+            <div class="grid">
+                <a href="home.html" class="button">Exit</a>
+                <a href="faq.html" class="button">FAQ ></a>
+                <a href="#" class="button">Demo Video ></a>
+                <a href="feed.html" class="button">Customer Feedback</a>
+
+            </div>
+        </body>
+
+
+    </main>
+</body>
+
+</html>

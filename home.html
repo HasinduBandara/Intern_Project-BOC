@@ -1,0 +1,65 @@
+<html lang="en" lang="Tamil" lang="Sinhala">
+
+<link rel="stylesheet" href="style.css">
+
+<body>
+  <!-- Time -->
+  <p class="time" id="demo"></p>
+ <script>
+    const d = new Date();
+    const formattedDate = `${d.getFullYear()}-${d.toLocaleString('default', { month: 'long' })}-${d.getDate()}`;
+    const formattedTime = `${d.getHours()}:${d.getMinutes()}`;
+    document.getElementById('demo').innerHTML = `${formattedTime}    |     ${formattedDate} `;
+
+  </script>
+
+<style>
+  body {
+      background-image: url(image/bg3.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    
+  }
+
+  
+</style>
+  <img src="image/Capp.PNG" alt="Globe" class="globe-image">
+
+  
+  <div class="btn-group">
+    <h3>Select The Language</h3>
+    <button type="button" class="sinhalaBtn" onclick="redirectToLanguage('sinhala')">සිංහල</button>
+    <button type="button" class="englishBtn" onclick="redirectToLanguage('english')">English</button>
+    <button type="button" class="tamilBtn" onclick="redirectToLanguage('tamil')">தமிழ்</button>
+</div>
+
+<script>
+    function redirectToLanguage(language) {
+        // You can customize the URL based on the selected language
+        var url;
+        if (language === 'sinhala') {
+            url = 'smartbsin.html';  // Replace with the actual URL for Sinhala
+        } else if (language === 'english') {
+            url = 'test.html';     // Replace with the actual URL for English
+        } else if (language === 'tamil') {
+            url = 'smartbtam.html';    // Replace with the actual URL for Tamil
+        }
+
+        window.location.href = url;
+    }
+</script>
+
+<script>
+  function redirectToTestPage() {
+      document.body.classList.add('fade-in');
+      
+      // Add a delay to allow the animation to complete before redirecting
+      setTimeout(function () {
+          window.location.href = "test.html";
+      }, 400); // Adjust the delay (in milliseconds) to match your animation duration
+  }
+</script>
+
+</body>
+
+</html>

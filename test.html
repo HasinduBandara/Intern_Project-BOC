@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>BOC DIGI PRODUCTS</title>
+    
+    <!-- Add the Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <p class="time" id="demo"></p>
+    <script>
+       const d = new Date();
+       const formattedDate = `${d.getFullYear()}-${d.toLocaleString('default', { month: 'long' })}-${d.getDate()}`;
+       const formattedTime = `${d.getHours()}:${d.getMinutes()}`;
+       document.getElementById('demo').innerHTML = `${formattedTime}    |     ${formattedDate} `;
+   
+     </script>
+    
+   
+
+
+    <div class="frame">
+      <div class="overlap-group">
+        <div class="text-wrapper">BOC DIGITAL PRODUCTS</div>
+       <!-- btn1 -->
+        <button class="rectangle"></button>
+       
+        <script>
+          function redirectToBappPage() {
+            window.location.href = "bapp.html";
+          }
+        </script>
+        <button class="rectangle" onclick="redirectToBappPage()">Go to bapp.html
+        
+        </button>
+        
+       <!--  btn 2 -->
+
+        <button class="rectangle-2"></button>
+        <script>
+          function redirectToSmartPage() {
+            window.location.href = "smart.html";
+          }
+        </script>
+        
+        <button class="rectangle-2" onclick="redirectToSmartPage()"></button>
+       <!--  btn 3 -->
+
+        <button class="rectangle-3"></button>
+        <script>
+          function redirectToMetaPage() {
+            window.location.href = "meta.html";
+          }
+        </script>
+        
+        <button class="rectangle-3" onclick="redirectToMetaPage()"></button>
+      <!--   btn 4 -->
+        <button class="rectangle-4"></button>
+        <script>
+          function redirectToBookPage() {
+            window.location.href = "book.html";
+          }
+        </script>
+        
+        <button class="rectangle-4" onclick="redirectToBookPage()"></button>
+        
+     <!--    btn 5 -->
+        <button class="rectangle-5"></button>
+        <script>
+          function redirectToApplyPage() {
+            window.location.href = "apply.html";
+          }
+        </script>
+        
+        <button class="rectangle-5" onclick="redirectToApplyPage()"></button>
+        <!-- ................btn enddddddddd...................... -->
+        <div class="text-wrapper-2">Bapp</div>
+        <div class="div-wrapper"><div class="text-wrapper-3">Meta Banking</div></div>
+        <img class="bapp" src="image/bapp.png" />
+        <img class="img" src="image/mbank.png" />
+        <img class="bapp-2" src="image/spass.png" />
+        <img class="bapp-3" src="image/spay.png" />
+        <!-- <img class="img-2" src="img/frame-2.png" /> -->
+        <div class="text-wrapper-4">Apply Online</div>
+        <div class="text-wrapper-5">SmartPassBook</div>
+        <div class="text-wrapper-6">Smart Pay</div>
+      </div>
+    
+</body>
+</html>
+
+    
+    
+
+      
+   
+        <style>
+          body {
+            background-image: url(image/new.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+        </style>
+        <div class="heddd">
+            <button class="back-button" onclick="redirectToTestPage()">Back</button>
+          </div>
+          
+          <script>
+            function redirectToTestPage() {
+              window.location.href = "home.html";
+            }
+          </script>
+          <script>
+            function redirectToTestPage() {
+                document.body.classList.add('fade-out');
+                
+                // Add a delay to allow the animation to complete before redirecting
+                setTimeout(function () {
+                    window.location.href = "home.html";
+                }, 400); // Adjust the delay (in milliseconds) to match your animation duration
+            }
+        </script>
+        
+          
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
