@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="apply.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ஆன்லைனில் விண்ணப்பிக்க</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    <style>
+        body {
+         
+         background-image: url(../image/bg4.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+       }
+        </style>
+
+    <h1>ஆன்லைனில் விண்ணப்பிக்க</h1>
+    <img src="../image/gg.jpg" class="bkk">
+</body>
+
+<main>
+    <p class="time" id="demo"></p>
+
+    <script>
+        const d = new Date();
+        const formattedDate = `${d.getFullYear()}-${d.toLocaleString('default', { month: 'long' })}-${d.getDate()}`;
+        const formattedTime = `${d.getHours()}:${d.getMinutes() }`;
+        document.getElementById('demo').innerHTML = `${formattedTime}        ${formattedDate} `;
+  
+      </script>
+    <div class="heddd">
+        <button class="back-button" onclick="redirectToTestPage()">Back</button>
+      </div>
+      
+      <script>
+        function redirectToTestPage() {
+          window.location.href = "../smartbtam.html";
+        }
+      </script>
+      
+    <section class="features">
+
+        <p>
+            ஆன்லைனில் வங்கி வசதிகளுக்கு விண்ணப்பிப்பதற்கான எளிமை மற்றும் செயல்திறனைத் தழுவுங்கள். ஆவணங்களைத் தவிர்த்துவிட்டு a
+            ஒரு சில கிளிக்குகளில் கிளை! நீங்கள் வீட்டில் இருந்தாலும், வேலையில் இருந்தாலும், 2417 அணுகல்தன்மையின் வசதியை அனுபவிக்கவும்
+            அல்லது பயணம்.
+            பின்வரும் வசதிகளுக்குப் பாதுகாப்பாக விண்ணப்பித்து, நெறிப்படுத்தப்பட்ட மற்றும் தொந்தரவு இல்லாத பயணத்தை அனுபவியுங்கள், சேமிப்பது
+            மதிப்புமிக்க நேரம் மற்றும் முயற்சி.
+
+        </p><br><br>
+        <h2>அம்சங்கள்</h2>
+
+
+        <ul>
+            <li>கிரெடிட் கார்டுகள்</li>
+             <li> தனிநபர் கடன்கள்</li>
+             <li>BOC வீட்டுக் கடன்கள்</li>
+             <li>சேமிப்புக் கணக்கு</li>
+             <li>இன்றே எங்களுடன் இணையுங்கள் மற்றும் தடையற்ற வங்கி உலகை திறக்கவும்
+                 உங்கள் விரல் நுனியில்!</li>
+        </ul>
+        </ul>
+
+
+    </section>
+
+
+    <!DOCTYPE html>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 2fr);
+            /* Adjust the number of columns as needed */
+            grid-gap: 10px;
+            /* Adjust the gap between grid items */
+        }
+
+        .button {
+            padding: 8px;
+            text-align: center;
+            background-color: FFD700;
+            color: black;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+
+    <body>
+        <div class="grid">
+            <a href="../home.html" class="button">Exit</a>
+            <a href="faq.html" class="button">FAQ ></a>
+            <a href="#" class="button">Demo Video ></a>
+            <a href="feed.html" class="button">Customer Feedback</a>
+
+        </div>
+    </body>
+
+
+</main>
+</body>
+
+</html>

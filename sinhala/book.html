@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="book.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Pass Book</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    <style>
+        body {
+         
+         background-image: url(../image/bg4.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+       }
+        </style>
+        <h1>Smart Pass Book</h1>
+
+
+
+    <img src="../image/spass.png" class="bkk"> <br>
+    </body>
+    <main>
+        <p>
+            BOC Smart Passbook යනු සම්ප්‍රදායික පාස්පොත / ජංගම ගිණුම් ප්‍රකාශයේ ඉලෙක්ට්‍රොනික අනුවාදයකි,
+             ඔබගේ ගිණුම, උකස් ශේෂයන් සහ ගනුදෙනු විස්තර reaF බාගත කර පරීක්ෂා කිරීමට ඔබට ඉඩ සලසයි
+             කාලය, ඕනෑම තැනක, ඕනෑම වේලාවක.
+        </p><br>
+        <div class="heddd">
+            <button class="back-button" onclick="redirectToTestPage()">Back</button>
+          </div>
+          
+          <script>
+            function redirectToTestPage() {
+              window.location.href = "../smartbsin.html";
+            }
+          </script>
+          
+          <p class="time" id="demo"></p>
+
+          <script>
+            const d = new Date();
+            const formattedDate = `${d.getFullYear()}-${d.toLocaleString('default', { month: 'long' })}-${d.getDate()}`;
+            const formattedTime = `${d.getHours()}:${d.getMinutes() }`;
+            document.getElementById('demo').innerHTML = `${formattedTime}        ${formattedDate} `;
+      
+          </script>
+        <section class="features">
+
+            
+            <h2>Features</h2> 
+            <ul>
+                <li>ජාතික හැඳුනුම්පත සහ ජංගම දුරකථන අංකය සමඟ ස්වයං-ලියාපදිංචිය (දේශීය/විදේශීය)</li>
+                <li> ගිණුම් ශේෂ සහ ගනුදෙනු විස්තර</li>
+                <li>උකස් ශේෂය</li>
+                <li>පසුගිය මාස 03 ගනුදෙනු විස්තර බැලිය හැක.</li>
+                <li>විදේශීය ප්‍රේෂණ ට්‍රැකර්</li>
+                <li>උපකරණ කිහිපයක භාවිතා කළ හැක (ලියාපදිංචියකට උපාංග 5ක් දක්වා)</li>
+
+                <li>අවසන් වරට නැරඹූ ගනුදෙනු dls නොබැඳි ආකාරයෙන් පෙන්වයි</li>
+            </ul>
+
+
+        </section>
+
+
+        <!DOCTYPE html>
+
+        <style>
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(5, 2fr);
+                /* Adjust the number of columns as needed */
+                grid-gap: 10px;
+                /* Adjust the gap between grid items */
+            }
+
+            .button {
+                padding: 8px;
+                left: 1;
+                top:1;
+                text-align: center;
+                background-color: FFD700;
+                color: black;
+                border: none;
+                cursor: pointer;
+            }
+        </style>
+
+        <body>
+            <div class="grid">
+                <a href="../home.html" class="button">Exit</a>
+                <a href="faq.html" class="button">FAQ ></a>
+                <a href="#" class="button">Demo Video ></a>
+                <a href="feed.html" class="button">Customer Feedback</a>
+
+            </div>
+        </body>
+
+
+    </main>
+</body>
+
+</html>

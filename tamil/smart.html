@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="smart.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Pay</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+  <style>
+    body {
+     
+     background-image: url(../image/bg4.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+   }
+    </style>
+ 
+   <h1>Smart Pay</h1> 
+   
+
+ 
+    <img src ="../image/smt.jpg" class="bkk">
+    <p class="time" id="demo"></p>
+
+    <script>
+      const d = new Date();
+      const formattedDate = `${d.getFullYear()}-${d.toLocaleString('default', { month: 'long' })}-${d.getDate()}`;
+      const formattedTime = `${d.getHours()}:${d.getMinutes() }`;
+      document.getElementById('demo').innerHTML = `${formattedTime}        ${formattedDate} `;
+
+    </script>
+   <div class="heddd">
+    <button class="back-button" onclick="redirectToTestPage()">Back</button>
+  </div>
+  
+  <script>
+    function redirectToTestPage() {
+      window.location.href = "../smartbtam.html";
+    }
+  </script>
+  
+    <section class="features">
+     
+        <p>
+          'LANKAQR' என்பது மார்க்கெட்போலே நிற்கும் வாய்ப்பு இருக்கும் உள்ளூர் QR வே. BOC LANKAQR வசதி உள்ளது
+          மற்றும் யூனியன்பே இன்டர்நாஷனல் (CUP) QR கேத தீவின் புராதனமான BOC மார்க்கெட் விற்பனை நிலையங்களில்.
+        </p>
+    <br><br><br>
+    </section>
+ 
+      <h2>அம்சங்கள்</h2> 
+      <ul >
+        <li>உங்கள் சொந்த மொபைல் சாதனத்தைப் பயன்படுத்தி 100,000 LANKAQR சான்றளிக்கப்பட்ட 100,000 க்கும் மேற்பட்ட வணிக விற்பனை நிலையங்களில் பணம் செலுத்துங்கள்.
+        <li>எந்தவொரு பயன்பாட்டு பில் கொடுப்பனவுகளையும் அரசாங்க சேவைகளுக்கான கட்டணங்களையும் சில நொடிகளில் முடிக்கவும்</li>
+        <li>ஒரு பயன்பாட்டு பில் அல்லது வணிக விலைப்பட்டியலில் அச்சிடப்பட்ட எந்த LANKAQR க்கும் ஸ்கேன் செய்து பணம் செலுத்தவும்</li>
+        <li>பிஓசி கிரெடிட் கார்டுகளை தாமதமாக செலுத்தும் கட்டணங்களைத் தவிர்த்து விரைவாகத் தீர்க்கவும்</li>
+        <li>டெபிட் கார்டு அல்லது பணம் எடுக்காமல் நேரடியாக பணம் செலுத்த உங்கள் BOC கணக்குகளைப் பயன்படுத்தவும்</li>
+        <li>உங்கள் BOC சேமிப்பு அல்லது நடப்புக் கணக்கு நிலுவைகளை நிகழ்நேரத்தில் விசாரிக்கவும்</li>
+      </ul>
+
+      
+    </section>
+
+   
+    <!DOCTYPE html>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 2fr); /* Adjust the number of columns as needed */
+            grid-gap: 10px; /* Adjust the gap between grid items */
+        }
+        .button {
+            padding: 8px;
+            text-align: center;
+            background-color: FFD700;
+            color:black;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+
+<body>
+    <div class="grid">
+        <a href="../home.html" class="button">Exit</a>
+        <a href="faq.html" class="button">FAQ ></a>
+        <a href="#" class="button">Demo Video ></a>
+        <a href="feed.html" class="button">Customer Feedback</a>
+       
+    </div> 
+</body>
+
+
+  </main>
+</body>
+</html>

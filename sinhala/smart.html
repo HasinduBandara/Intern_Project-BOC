@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="smart.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Pay</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+  <style>
+    body {
+     
+     background-image: url(../image/bg4.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+   }
+    </style>
+ 
+   <h1>Smart Pay</h1> 
+   
+
+ 
+    <img src ="../image/smt.jpg" class="bkk">
+    <p class="time" id="demo"></p>
+
+    <script>
+      const d = new Date();
+      const formattedDate = `${d.getFullYear()}-${d.toLocaleString('default', { month: 'long' })}-${d.getDate()}`;
+      const formattedTime = `${d.getHours()}:${d.getMinutes() }`;
+      document.getElementById('demo').innerHTML = `${formattedTime}        ${formattedDate} `;
+
+    </script>
+   <div class="heddd">
+    <button class="back-button" onclick="redirectToTestPage()">Back</button>
+  </div>
+  
+  <script>
+    function redirectToTestPage() {
+      window.location.href = "../smartbsin.html";
+    }
+  </script>
+  
+    <section class="features">
+     
+        <p>
+            'LANKAQR' යනු වෙළඳපොලේ නැගී එන ගෙවීම් විසඳුමක් වන දේශීය QR වේ. BOC LANKAQR පහසුකම් සපයයි
+            සහ යුනියන්පේ ඉන්ටර්නැෂනල් (CUP) QR කේත දිවයින පුරා පිහිටි BOC වෙළඳ අලෙවිසැල්වල.
+        </p>
+    <br><br><br>
+    </section>
+ 
+      <h2>Features</h2> 
+      <ul >
+        <li>ඔබගේම ජංගම උපාංගයක් භාවිතයෙන් සහ අතේ මුදල් නොමැතිව දිවයින පුරා LANKAQR සහතික ලත් වෙළඳ අලෙවිසැල් 100,000කට වඩා ස්කෑන් කර ගෙවන්න</li>
+        <li>ඕනෑම උපයෝගිතා බිල්පත් ගෙවීම් සහ රජයේ සේවා සඳහා ගෙවීම් තත්පර කිහිපයකින් සම්පූර්ණ කරන්න</li>
+        <li>උපයෝගිතා බිල්පතක හෝ වෙළඳ ඉන්වොයිසියක මුද්‍රණය කර ඇති ඕනෑම LANKAQR වෙත පරිලෝකනය කර ගෙවන්න</li>
+        <li>ප්‍රමාද ගෙවීමේ ගාස්තු මගහැර ඉක්මනින් BOC ක්‍රෙඩිට් කාඩ්පත් පියවන්න</li>
+        <li>ඩෙබිට් කාඩ්පතක් හෝ මුදල් ආපසු ගැනීමකින් තොරව සෘජු ගෙවීම් කිරීමට ඔබේ BOC ගිණුම් භාවිතා කරන්න</li>
+        <li>ඔබේ BOC ඉතුරුම් හෝ ජංගම ගිණුමේ ශේෂයන් තත්‍ය කාලීනව විමසන්න</li>
+      </ul>
+
+      
+    </section>
+
+   
+    <!DOCTYPE html>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 2fr); /* Adjust the number of columns as needed */
+            grid-gap: 10px; /* Adjust the gap between grid items */
+        }
+        .button {
+            padding: 8px;
+            text-align: center;
+            background-color: FFD700;
+            color:black;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+
+<body>
+    <div class="grid">
+        <a href="../home.html" class="button">Exit</a>
+        <a href="faq.html" class="button">FAQ ></a>
+        <a href="#" class="button">Demo Video ></a>
+        <a href="feed.html" class="button">Customer Feedback</a>
+       
+    </div> 
+</body>
+
+
+  </main>
+</body>
+</html>

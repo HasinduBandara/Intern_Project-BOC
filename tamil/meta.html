@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="meta.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Banking</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    <style>
+        body {
+         
+         background-image: url(../image/bg4.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+       }
+        </style> 
+    
+        <h1>Meta Banking</h1>
+
+    <main>
+        <img src = "../image/mbank.png" class="bkk"><br><br>
+    
+        <p>
+            BOC META வங்கியியல் - வாட்ஸ்அப் வங்கியானது கிரெடிட் கார்டு இருப்பு விசாரணை, பணம் அனுப்பும் கண்காணிப்பு மற்றும்
+            இலங்கையில் முதல் முறையாக நேரடி முகவர் அரட்டை, வழக்கமான தயாரிப்பு தொடர்பான விசாரணைகள் மற்றும்
+            CASA, கடன்கள் மற்றும் FD இருப்பு விசாரணை/மினி அறிக்கை, பல சேவைகளில்.
+
+        </p>
+
+        <div class="heddd">
+            <button class="back-button" onclick="redirectToTestPage()">Back</button>
+          </div>
+          
+          <script>
+            function redirectToTestPage() {
+              window.location.href = "../smartbtam.html";
+            }
+          </script>
+          
+          <p class="time" id="demo"></p>
+
+          <script>
+            const d = new Date();
+            const formattedDate = `${d.getFullYear()}-${d.toLocaleString('default', { month: 'long' })}-${d.getDate()}`;
+            const formattedTime = `${d.getHours()}:${d.getMinutes() }`;
+            document.getElementById('demo').innerHTML = `${formattedTime}        ${formattedDate} `;
+      
+          </script>
+        <section class="features">
+
+           
+            <h2> வங்கிக்கான</h2> 
+            <ul>
+                <li>24x7 அணுகல்</li>
+                <li>பாதுகாப்பான மற்றும் வசதியான வங்கி</li>
+                <li>நிதி விசாரணைகள் மற்றும் பிற சேவைகள்</li>
+                <li>நேரடி அரட்டை மூலம் வாடிக்கையாளர் ஆதரவு கிடைக்கும்</li>
+                <li>உங்கள் என்எல்சி மற்றும் மொபைல் எண்ணுடன் (உள்ளூர் மற்றும் வெளிநாட்டு) சுய பதிவு
+                </li>
+                <li>BOC அல்லாத வாடிக்கையாளர்களும் கட்டணங்கள், பணம் அனுப்புதல் கண்காணிப்பு,<br> BOC ஏடிஎம்களை கண்டறிதல் போன்ற சேவைகளை அணுகலாம் &
+                    எனக்கு அருகிலுள்ள கிளைகள் போன்றவை.</li>
+
+                <li>BOC ஹாட்லைனை (WhatsApp எண்) 011 220 41'14 ஐ அழைப்பதன் மூலம் 'ஹாய்' என்று சொல்லவும், <br>அரட்டையைத் தொடங்கவும்
+                    உடனடியாக</li>
+            </ul>
+
+
+        </section>
+
+
+        <!DOCTYPE html>
+
+        <style>
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(5, 2fr);
+                /* Adjust the number of columns as needed */
+                grid-gap: 10px;
+                /* Adjust the gap between grid items */
+            }
+
+            .button {
+                padding: 8px;
+                text-align: center;
+                background-color: FFD700;
+                color: black;
+                border: none;
+                cursor: pointer;
+            }
+        </style>
+
+        <body>
+            <div class="grid">
+                <a href="../home.html" class="button">Exit</a>
+                <a href="faq.html" class="button">FAQ ></a>
+                <a href="#" class="button">Demo Video ></a>
+                <a href="feed.html" class="button">Customer Feedback</a>
+
+            </div>
+        </body>
+
+
+    </main>
+</body>
+
+</html>

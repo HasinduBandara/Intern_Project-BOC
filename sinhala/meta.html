@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="meta.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Banking</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    <style>
+        body {
+         
+         background-image: url(../image/bg4.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+       }
+        </style> 
+    
+        <h1>Meta Banking</h1>
+
+    <main>
+        <img src = "../image/mbank.png" class="bkk"><br><br>
+    
+        <p>
+            BOC META බැංකුකරණය - WhatsApp බැංකුකරණය ක්‍රෙඩිට් කාඩ් ශේෂය විමසීම, ප්‍රේෂණ ට්‍රැකර් සහ
+             සාම්ප්‍රදායික නිෂ්පාදන ආශ්‍රිත විමසීම් වලට අමතරව ශ්‍රී ලංකාවේ ප්‍රථම වරට සජීවී නියෝජිත කතාබස් සහ
+             වෙනත් බොහෝ සේවාවන් අතර CASA, ණය සහ FD ශේෂ විමර්ශනය/කුඩා ප්‍රකාශය.
+
+
+        </p>
+
+        <div class="heddd">
+            <button class="back-button" onclick="redirectToTestPage()">Back</button>
+          </div>
+          
+          <script>
+            function redirectToTestPage() {
+              window.location.href = "../smartbsin.html";
+            }
+          </script>
+          
+          <p class="time" id="demo"></p>
+
+          <script>
+            const d = new Date();
+            const formattedDate = `${d.getFullYear()}-${d.toLocaleString('default', { month: 'long' })}-${d.getDate()}`;
+            const formattedTime = `${d.getHours()}:${d.getMinutes() }`;
+            document.getElementById('demo').innerHTML = `${formattedTime}        ${formattedDate} `;
+      
+          </script>
+        <section class="features">
+
+           
+            <h2>Features</h2> 
+            <ul>
+                <li>බැංකුව වෙත 24x7 ප්‍රවේශය</li>
+                 <li>සුරක්ෂිත සහ පහසු බැංකුකරණය</li>
+                 <li>මූල්‍ය විමසීම් සහ අනෙකුත් සේවා</li>
+                 <li>සජීවී කතාබස් හරහා පාරිභෝගික සහාය ලබා ගැනීමේ හැකියාව</li>
+                 <li>ඔබගේ Nlc සහ ජංගම දුරකථන අංකය සමඟ ස්වයං-ලියාපදිංචිය (දේශීය සහ විදේශීය)
+                 </li>
+                 <li>BOC නොවන පාරිභෝගිකයින්ට ගාස්තු, ප්‍රේෂණ ට්‍රැකර්, BOC ස්වයංක්‍රීය ටෙලර් යන්ත්‍ර ස්ථානගත කිරීම සහ වැනි සේවාවන් වෙත ප්‍රවේශ විය හැක.<br>
+                     මා අසල ශාඛා, ආදිය.</li>
+
+                 <li>BOC ක්ෂණික ඇමතුම් අංකය (WhatsApp අංකය) 011 220 41'14 ඇමතීමෙන් සරලව 'හායි' කියන්න,<br> සහ කතාබහක් ආරම්භ කරන්න
+                     ක්ෂණිකව</li>
+            </ul>
+
+
+        </section>
+
+
+        <!DOCTYPE html>
+
+        <style>
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(5, 2fr);
+                /* Adjust the number of columns as needed */
+                grid-gap: 10px;
+                /* Adjust the gap between grid items */
+            }
+
+            .button {
+                padding: 8px;
+                text-align: center;
+                background-color: FFD700;
+                color: black;
+                border: none;
+                cursor: pointer;
+            }
+        </style>
+
+        <body>
+            <div class="grid">
+                <a href="../home.html" class="button">Exit</a>
+                <a href="faq.html" class="button">FAQ ></a>
+                <a href="#" class="button">Demo Video ></a>
+                <a href="feed.html" class="button">Customer Feedback</a>
+
+            </div>
+        </body>
+
+
+    </main>
+</body>
+
+</html>

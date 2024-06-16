@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="book.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Pass Book</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    <style>
+        body {
+         
+         background-image: url(../image/bg4.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+       }
+        </style>
+        <h1>Smart Pass Book</h1>
+
+
+
+    <img src="../image/spass.png" class="bkk"> <br>
+    </body>
+    <main>
+        <p>
+            BOC ஸ்மார்ட் பாஸ்புக் என்பது பாரம்பரிய பாஸ்புக் / நடப்புக் கணக்கு அறிக்கையின் மின்னணு பதிப்பாகும்,
+            இது உங்கள் கணக்கு, அடகு வைப்பு நிலுவைகள் மற்றும் பரிவர்த்தனை விவரங்களைப் பதிவிறக்கம் செய்து சரிபார்க்க அனுமதிக்கிறது
+            நேரம், எங்கும், எந்த நேரத்திலும்.
+        </p><br>
+        <div class="heddd">
+            <button class="back-button" onclick="redirectToTestPage()">Back</button>
+          </div>
+          
+          <script>
+            function redirectToTestPage() {
+              window.location.href = "../smartbtam.html";
+            }
+          </script>
+          
+          <p class="time" id="demo"></p>
+
+          <script>
+            const d = new Date();
+            const formattedDate = `${d.getFullYear()}-${d.toLocaleString('default', { month: 'long' })}-${d.getDate()}`;
+            const formattedTime = `${d.getHours()}:${d.getMinutes() }`;
+            document.getElementById('demo').innerHTML = `${formattedTime}        ${formattedDate} `;
+      
+          </script>
+        <section class="features">
+
+            
+            <h2>Features</h2> 
+            <ul>
+                <li>என்ஐசி மற்றும் மொபைல் எண்ணுடன் சுய-பதிவு (உள்ளூர்/வெளிநாட்டு)</li>
+                <li> கணக்கு நிலுவைகள் & பரிவர்த்தனை விவரங்கள்</li>
+                <li> அடகு வைப்பு இருப்பு</li>
+                <li>கடந்த 03 மாத பரிவர்த்தனை விவரங்களைப் பார்க்கலாம்.</li>
+                <li>வெளிநாட்டு பணம் அனுப்புதல் கண்காணிப்பு</li>
+                <li>பல சாதனங்களில் பயன்படுத்தலாம் (ஒரு பதிவுக்கு 5 சாதனங்கள் வரை)</li>
+
+                <li>கடைசியாகப் பார்க்கப்பட்ட பரிவர்த்தனைகள் ஆஃப்லைன் பயன்முறையில் dls இயக்கப்பட்டன</li>
+            </ul>
+
+
+        </section>
+
+
+        <!DOCTYPE html>
+
+        <style>
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(5, 2fr);
+                /* Adjust the number of columns as needed */
+                grid-gap: 10px;
+                /* Adjust the gap between grid items */
+            }
+
+            .button {
+                padding: 8px;
+                left: 1;
+                top:1;
+                text-align: center;
+                background-color: FFD700;
+                color: black;
+                border: none;
+                cursor: pointer;
+            }
+        </style>
+
+        <body>
+            <div class="grid">
+                <a href="../home.html" class="button">Exit</a>
+                <a href="faq.html" class="button">FAQ ></a>
+                <a href="#" class="button">Demo Video ></a>
+                <a href="feed.html" class="button">Customer Feedback</a>
+
+            </div>
+        </body>
+
+
+    </main>
+</body>
+
+</html>

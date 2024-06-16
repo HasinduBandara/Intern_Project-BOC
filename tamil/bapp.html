@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="sn">
+<link rel="stylesheet" href="bapp.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B App</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    
+   <style>
+   body {
+    
+    background-image: url(../image/bg4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+   </style>
+    <h1>B App</h1>
+
+    <img src="../image/bapp.png" class="bkk"> 
+    <main>
+        <p class="time" id="demo"></p>
+
+        <script>
+            const d = new Date();
+            const formattedDate = `${d.getFullYear()}-${d.toLocaleString('default', { month: 'long' })}-${d.getDate()}`;
+            const formattedTime = `${d.getHours()}:${d.getMinutes() }`;
+            document.getElementById('demo').innerHTML = `${formattedTime}        ${formattedDate} `;
+      
+          </script>
+        <div class="heddd">
+            <button class="back-button" onclick="redirectToTestPage()">Back</button>
+          </div>
+          
+          <script>
+            function redirectToTestPage() {
+              window.location.href = "../smartbtam.html";
+            }
+          </script>
+          
+        <section class="features">
+
+            <p>
+                நீங்கள் எங்கிருந்தாலும், BOC இன் மொபைல் செயலியானது உங்கள் வங்கிச் சேவையை வசதியாக செய்து முடிக்க வசதியான வழியாகும்
+                 பாதுகாப்பாக. உங்களின் அனைத்து கணக்குகளையும் அணுகவும், உங்களின் பில்களை செலுத்தவும் மற்றும் பணப் பரிமாற்றத்திற்கான பாதுகாப்புடன் B பயன்பாட்டைப் பயன்படுத்தவும்
+                 அதிவேக வங்கிக்கான மேம்பட்ட குறியாக்கம்.
+            </p><br><br><br>
+            <h2>அம்சங்கள்</h2>
+            <ul>
+                <li>இருப்பு விசாரணைகள் (நடப்பு/சேமிப்பு/கடன்கள்)</li>
+                 <li> முந்தைய பரிவர்த்தனைகளைப் பார்க்கவும் மற்றும் அறிக்கைகளைப் பதிவிறக்கவும்</li>
+                 <li>பில்லர்கள் மற்றும் மூன்றாம் தரப்பு கணக்குகளைச் சேர்</li>
+                 <li>சொந்த கணக்கு, மூன்றாம் தரப்பு BOC கணக்குகளுக்கு நிதி பரிமாற்றம் (உடனடி/திட்டமிடப்பட்டது/ நிலையான உத்தரவு)
+                     மற்றும் பிற வங்கி கணக்குகள்.</li>
+                 <li>பில் கொடுப்பனவுகள் (உடனடியாக, திட்டமிடப்பட்டவை, தொடர்ச்சியானவை)</li>
+                 <li>கிரெடிட் கார்டு கொடுப்பனவுகள் (வங்கி & வங்கி அல்லாத கிரெடிட் கார்டுகள்)</li>
+
+                 <li>ஆன்லைன் காசோலை புத்தக கோரிக்கை</li>
+            </ul>
+
+
+        </section>
+
+
+        <!DOCTYPE html>
+
+        <style>
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(5, 2fr);
+                /* Adjust the number of columns as needed */
+                grid-gap: 10px;
+                /* Adjust the gap between grid items */
+            }
+
+            .button {
+                padding: 8px;
+                text-align: center;
+                background-color: FFD700;
+                color: black;
+                border: none;
+                cursor: pointer;
+            }
+        </style>
+
+        <body>
+            <div class="grid">
+                <a href="../home.html" class="button">Exit</a>
+                <a href="faq.html" class="button">FAQ ></a>
+                <a href="#" class="button">Demo Video ></a>
+                <a href="feed.html" class="button">Customer Feedback</a>
+
+            </div>
+        </body>
+
+
+    </main>
+</body>
+
+</html>

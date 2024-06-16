@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="apply.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>මාර්ගගතව අයදුම් කරන්න</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    <style>
+        body {
+         
+         background-image: url(../image/bg4.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+       }
+        </style>
+
+    <h1>මාර්ගගතව අයදුම් කරන්න</h1>
+    <img src="../image/gg.jpg" class="bkk">
+</body>
+
+<main>
+    <p class="time" id="demo"></p>
+
+    <script>
+        const d = new Date();
+        const formattedDate = `${d.getFullYear()}-${d.toLocaleString('default', { month: 'long' })}-${d.getDate()}`;
+        const formattedTime = `${d.getHours()}:${d.getMinutes() }`;
+        document.getElementById('demo').innerHTML = `${formattedTime}        ${formattedDate} `;
+  
+      </script>
+    <div class="heddd">
+        <button class="back-button" onclick="redirectToTestPage()">Back</button>
+      </div>
+      
+      <script>
+        function redirectToTestPage() {
+          window.location.href = "../smartbsin.html";
+        }
+      </script>
+      
+    <section class="features">
+
+        <p>
+            අන්තර්ජාලය හරහා බැංකු පහසුකම් සඳහා අයදුම් කිරීමේ පහසුව සහ කාර්යක්ෂමතාවය වැළඳ ගන්න. ලේඛන කටයුතු මඟ හැර පිවිසෙන්න a
+             ක්ලික් කිරීම් කිහිපයක් සමඟ ශාඛාව! ඔබ නිවසේ සිටියත්, රැකියාවේ සිටියත්, 2417 ප්‍රවේශ්‍යතාවයේ පහසුව භුක්ති විඳින්න.
+             හෝ ගමන් කිරීම.
+             පහත පහසුකම් සඳහා ආරක්ෂිතව අයදුම් කරන්න සහ ඉතිරිකිරීමේ විධිමත් සහ කරදරයකින් තොර ගමනක් අත්විඳින්න
+             වටිනා කාලය සහ ශ්‍රමය.
+
+        </p><br><br>
+        <h2>විශේෂාංග</h2>
+
+
+        <ul>
+            <li>ක්‍රෙඩිට් කාඩ්පත්</li>
+             <li> පුද්ගලික ණය</li>
+             <li>BOC නිවාස ණය</li>
+             <li>ඉතුරුම් ගිණුම</li>
+             <li>අදම අප සමඟ සබැඳිව සම්බන්ධ වී බාධාවකින් තොර බැංකුකරණ ලෝකයක් විවෘත කරන්න
+                 ඔබගේ ඇඟිලි තුඩු!</li>
+        </ul>
+        </ul>
+
+
+    </section>
+
+
+    <!DOCTYPE html>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 2fr);
+            /* Adjust the number of columns as needed */
+            grid-gap: 10px;
+            /* Adjust the gap between grid items */
+        }
+
+        .button {
+            padding: 8px;
+            text-align: center;
+            background-color: FFD700;
+            color: black;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+
+    <body>
+        <div class="grid">
+            <a href="../home.html" class="button">Exit</a>
+            <a href="faq.html" class="button">FAQ ></a>
+            <a href="#" class="button">Demo Video ></a>
+            <a href="feed.html" class="button">Customer Feedback</a>
+
+        </div>
+    </body>
+
+
+</main>
+</body>
+
+</html>

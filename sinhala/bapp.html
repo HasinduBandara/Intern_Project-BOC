@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="sn">
+<link rel="stylesheet" href="bapp.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B App</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    
+   <style>
+   body {
+    
+    background-image: url(../image/bg4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+   </style>
+    <h1>B App</h1>
+
+    <img src="../image/bapp.png" class="bkk"> 
+    <main>
+        <p class="time" id="demo"></p>
+
+        <script>
+            const d = new Date();
+            const formattedDate = `${d.getFullYear()}-${d.toLocaleString('default', { month: 'long' })}-${d.getDate()}`;
+            const formattedTime = `${d.getHours()}:${d.getMinutes() }`;
+            document.getElementById('demo').innerHTML = `${formattedTime}        ${formattedDate} `;
+      
+          </script>
+        <div class="heddd">
+            <button class="back-button" onclick="redirectToTestPage()">Back</button>
+          </div>
+          
+          <script>
+            function redirectToTestPage() {
+              window.location.href = "../smartbsin.html";
+            }
+          </script>
+          
+        <section class="features">
+
+            <p>
+                ඔබ කොතැනක සිටියත්, ලංකා බැංකුවේ ජංගම යෙදුම ඔබගේ බැංකු කටයුතු පහසුවෙන් සිදු කිරීමට පහසුම ක්‍රමයයි
+                 ආරක්ෂිතව. ඔබගේ සියලුම ගිණුම් වෙත ප්‍රවේශ වීමට, ඔබගේ බිල්පත් ගෙවීමට සහ අරමුදල් මාරු කිරීමට B App භාවිතා කරන්න
+                 අධිවේගී බැංකුකරණය සඳහා උසස් සංකේතනය.
+            
+            </p><br><br><br>
+            <h2>විශේෂාංග</h2>
+            <ul>
+                <li>ශේෂ විමසීම් (වත්මන්/ඉතුරුම්/ණය)</li>
+                 <li> පෙර ගනුදෙනු බලන්න සහ ප්‍රකාශ බාගත කරන්න</li>
+                 <li>බිල්කරුවන් සහ තෙවන පාර්ශ්ව ගිණුම් එකතු කරන්න</li>
+                 <li>අරමුදල් මාරු කිරීම (ක්ෂණික/කාලසටහන්ගත/ ස්ථාවර නියෝගයක්) හිමිකාරී ගිණුමකට, තෙවන පාර්ශවීය BOC ගිණුම්
+                     සහ අනෙකුත් බැංකු ගිණුම්.</li>
+                 <li>බිල්පත් ගෙවීම් (ක්ෂණික, කාලසටහන්ගත, පුනරාවර්තන)</li>
+                 <li>ක්‍රෙඩිට් කාඩ් ගෙවීම් (බැංකු සහ බැංකු නොවන ණයපත්)</li>
+
+                 <li>ඔන්ලයින් චෙක් පොත් ඉල්ලීම</li>
+            </ul>
+
+
+        </section>
+
+
+        <!DOCTYPE html>
+
+        <style>
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(5, 2fr);
+                /* Adjust the number of columns as needed */
+                grid-gap: 10px;
+                /* Adjust the gap between grid items */
+            }
+
+            .button {
+                padding: 8px;
+                text-align: center;
+                background-color: FFD700;
+                color: black;
+                border: none;
+                cursor: pointer;
+            }
+        </style>
+
+        <body>
+            <div class="grid">
+                <a href="../home.html" class="button">Exit</a>
+                <a href="faq.html" class="button">FAQ ></a>
+                <a href="#" class="button">Demo Video ></a>
+                <a href="feed.html" class="button">Customer Feedback</a>
+
+            </div>
+        </body>
+
+
+    </main>
+</body>
+
+</html>

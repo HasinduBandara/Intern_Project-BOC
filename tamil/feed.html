@@ -1,0 +1,62 @@
+<div class="feedback-ui">
+    <html lang="en">
+<link rel="stylesheet" href="feed.css">
+<body style="background-color: #DAA520;">
+
+<p class="time" id="demo"></p>
+
+ 
+
+  <script>
+    const d = new Date();
+    const formattedDate = `${d.getFullYear()}-${d.toLocaleString('default', { month: 'long' })}-${d.getDate()}`;
+    const formattedTime = `${d.getHours()}:${d.getMinutes() }`;
+    document.getElementById('demo').innerHTML = `${formattedTime}    |     ${formattedDate} `;
+
+  </script>
+    <h1>Please rate your experience </h1>
+   
+    <div class="button-container">
+      <button class="emoji-button">&#128513;</button>
+      <button class="emoji-button">&#128578;</button>
+      <button class="emoji-button">&#128528;</button>
+      <button class="emoji-button">&#128542;</button>
+      <button class="emoji-button">&#128531;</button>
+    </div>
+    
+    <img src="../image/Capture.PNG" class="bkk">
+    <p>எங்கள் டிஜிட்டல் தயாரிப்பு குறித்த உங்கள் மதிப்புமிக்க கருத்தைப் பகிரவும்.</p>
+    <form action="#">
+      <div class="user-info">
+        <label for="name">உங்கள் பெயர்:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+  
+        <label for="phone">உங்கள் தொலைபேசி எண்:</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number">
+  
+        <label for="email">உங்கள் மின்னஞ்சல் முகவரி:</label>
+        <input type="email " id="email" placeholder="Enter your email address">
+      </div>
+     
+      
+      <div class="comment">
+        <label for="comment">தயவுசெய்து உங்கள் கருத்தைப் பகிரவும்:</label>
+        <textarea id="comment" rows="3" cols="40"></textarea>
+      </div>
+      <div class="submit">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+  <div class="heddd">
+    <button class="back-button" onclick="redirectToPreviousPage()">Back</button>
+</div>
+
+<script>
+    function redirectToPreviousPage() {
+        // Use the window.history object to navigate back
+        window.history.back();
+    }
+</script>
+  
+</body>
